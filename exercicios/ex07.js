@@ -1,4 +1,3 @@
-
 function somar(){
     var tn1 = document.querySelector('#num1')
     var tn2 = document.querySelector('#num2')
