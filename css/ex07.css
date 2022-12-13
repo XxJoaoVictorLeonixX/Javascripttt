@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(131, 202, 226);
+    font: normal 15pt arial
+}
+input{
+    border-radius: 10px;
+    height: 30px;
+}
+#btn{
+    transition: 0.5s ease-in-out;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(28, 28, 102);
+    color: white;
+}
