@@ -39,6 +39,9 @@ img{
     border-radius: 50%;
     width: 300px;
 }
+#res{
+    text-align: center;
+}
 
 @media (min-width:320px) and (max-width:570px) {
     section{
