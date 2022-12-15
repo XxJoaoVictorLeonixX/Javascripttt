@@ -26,13 +26,13 @@ function verificar(){
         }else if(fsex[1].checked){
             gen = 'Mulher'
             if(idade >=0 && idade < 10){
-                //criança
+                img.src = '../exercicioidade/imagens/bebemenina.jpg'
             }else if(idade < 21){
-                //jovem
+                img.src = '../exercicioidade/imagens/jovemmulher.jpg'
             }else if(idade < 50){
-                //adulto
+                img.src = '../exercicioidade/imagens/mulheradulto.jpg'
             }else{
-                //idoso
+                img.src = '../exercicioidade/imagens/idosomulher.jpg'
             }
         }
         res.innerHTML = `Detectamos ${gen} com ${idade} anos.`
