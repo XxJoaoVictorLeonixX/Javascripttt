@@ -42,6 +42,9 @@ img{
 #res{
     text-align: center;
 }
+#flista{
+    width: 150px;
+}
 
 @media (min-width:320px) and (max-width:570px) {
     section{
